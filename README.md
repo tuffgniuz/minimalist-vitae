@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="res/icons/latex.svg" height="100" width="100" />
+<img src="res/icons/latex.svg" height="150" width="150" />
 
 # Minimalist Vitae
 
