@@ -1,0 +1,92 @@
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.toc
+*.acn
+*.acr
+*.alg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.ps
+*.synctex.gz
+*.tdo
+*.thm
+*.toc
+*.upa
+*.upb
+*.vrb
+
+# LaTeX editor specific files
+# For TeXShop on macOS
+*.texpadtmp
+*.texpadtmp_*
+*.synctex(busy)
+
+# For Kile
+*.backup
+*.bak
+
+# For VimTeX
+*.fls
+*.fdb_latexmk
+
+# For LyX
+*.lyx~
+
+# For TexStudio
+*.pdfsync
+*.synctex.gz
+*.synctex(busy)
+
+# Miscellaneous intermediate files
+*.swp
+*~
+*.backup
+
+# Output files
+*.pdf
+*.ps
+*.dvi
+*.synctex.gz
+
+# Temporary files
+# May include personal notes and drafts
+*.tmp
+*.temp
+*.tmp.bib
+
+# BibTeX auxiliary files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Metadata and binary files
+*.fdb_latexmk
+*.synctex.gz
+*.fls
+*.log

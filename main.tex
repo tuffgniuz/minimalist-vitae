@@ -1,0 +1,41 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[protrusion=true,expansion=true]{microtype} % Improved typographic quality
+
+\geometry{margin=.5in}
+
+\pagestyle{empty} % hide page numbers
+
+
+\newcommand{\ressection}[1]{
+    \section*{\large\bfseries #1}
+    \vspace{-.5em}
+    \hrule
+    \vspace{.5em}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+  {\Huge \textbf{Imanuel Febie}}\\
+  \vspace{1em}
+  {\Large Full Stack Developer}\\
+  \vspace{1em}
+  \faGithub \hspace{0.3em} \href{https://github.com/tuffgniuz}{Github} $\cdot$ 
+  \faLinkedin \hspace{0.3em}  \href{https://linkedin.com/manufebie}{LinkedIn} $\cdot$ 
+  \faEnvelopeSquare \hspace{0.3em} \href{mailto:imanuelfebie@gmail.com}{tuffgniuz.dev@gmail.com}
+\end{center}
+
+\input{sections/education.tex}
+
+\input{sections/experience.tex}
+
+\input{sections/projects.tex}
+
+\end{document}
